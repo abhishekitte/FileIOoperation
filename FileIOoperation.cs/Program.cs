@@ -10,7 +10,7 @@ namespace FileIOoperation.cs
             Console.WriteLine("Welcome to File IO Operations");
             //string path = @"C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\FileIO\Sample.txt";
             FileReadWriteOperation file = new FileReadWriteOperation();
-            file.ReadFromStreamReader();
+            file.WriteUsingStreamWriter();
             Console.ReadLine();
         }
     }
