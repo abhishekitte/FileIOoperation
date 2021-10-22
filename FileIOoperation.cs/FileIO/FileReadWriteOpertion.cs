@@ -26,7 +26,7 @@ namespace FileIOoperation.FileIO
             try
             {
                 string[] lines;
-                string path = @"H:\visualstudio\FileIOoperation\FileIOoperation\FileIO\Sample.txt";
+                string path = @"C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\FileIO\Sample.txt";
                 //Reads all lines in file one by one 
                 lines = File.ReadAllLines(path);
                 if (lines.Length != 0)
@@ -76,6 +76,28 @@ namespace FileIOoperation.FileIO
             {
                 File.Copy(path, destination);
                 Console.WriteLine("file is copied successfully");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        // Delete file -To check whether the file exists or not,If delete the particular file
+        public void DeleteFile()
+        {
+            try
+            {
+                string deleteFile = @"C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\FileIO\Sample1.txt";
+                if (FilExists(deleteFile))
+                {
+                    File.Delete(deleteFile);
+                    Console.WriteLine("File deleted");
+                }
+                else
+                {
+                    Console.WriteLine("File not found!!!");
+                }
             }
             catch (Exception ex)
             {
