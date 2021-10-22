@@ -26,7 +26,7 @@ namespace FileIOoperation.FileIO
             try
             {
                 string[] lines;
-                string path = @"C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\FileIO\Sample.txt";
+                string path = @"H:\visualstudio\FileIOoperation\FileIOoperation\FileIO\Sample.txt";
                 //Reads all lines in file one by one 
                 lines = File.ReadAllLines(path);
                 if (lines.Length != 0)
@@ -35,6 +35,30 @@ namespace FileIOoperation.FileIO
                     {
                         Console.WriteLine(i + " ");
                     }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        //Method to read all texts from the file
+        public void ReadAllTextInFile()
+        {
+            try
+            {
+                string text;
+                string path = @"C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\FileIO\Sample.txt";
+                //Read all lines in a file at once
+                text = File.ReadAllText(path);
+                if (text.Length != 0)
+                {
+                    Console.WriteLine(text);
+                }
+                else
+                {
+                    Console.WriteLine("File does not contain any text");
                 }
             }
             catch (Exception ex)
