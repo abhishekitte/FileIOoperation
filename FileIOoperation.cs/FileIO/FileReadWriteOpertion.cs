@@ -66,5 +66,21 @@ namespace FileIOoperation.FileIO
                 Console.WriteLine(ex.Message);
             }
         }
+
+        //Copying existing file in to new one
+        public void CopyMethod(string path)
+        {
+            //It will automatically create new file for write operation
+            string destination = @"C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\FileIO\Sample1.txt";
+            try
+            {
+                File.Copy(path, destination);
+                Console.WriteLine("file is copied successfully");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
     }
 }

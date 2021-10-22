@@ -11,7 +11,7 @@ namespace FileIOoperation.cs
             string path = @"C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\FileIO\Sample.txt";
             FileReadWriteOperation file = new FileReadWriteOperation();
             file.FilExists(path);
-            file.ReadAllTextInFile();
+            file.CopyMethod(path);
             Console.ReadLine();
         }
     }
