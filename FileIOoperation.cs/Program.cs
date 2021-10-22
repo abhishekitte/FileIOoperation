@@ -1,7 +1,7 @@
 ﻿using FileIOoperation.FileIO;
 using System;
 
-namespace FileIOoperation
+namespace FileIOoperation.cs
 {
     class Program
     {
@@ -10,7 +10,7 @@ namespace FileIOoperation
             Console.WriteLine("Welcome to File IO Operations");
             //string path = @"C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\FileIO\Sample.txt";
             FileReadWriteOperation file = new FileReadWriteOperation();
-            file.DeleteFile();
+            file.ReadFromStreamReader();
             Console.ReadLine();
         }
     }
