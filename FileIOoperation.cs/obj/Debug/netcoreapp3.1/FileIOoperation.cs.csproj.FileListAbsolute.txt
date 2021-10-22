@@ -1,0 +1,14 @@
+C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\obj\Debug\netcoreapp3.1\FileIOoperation.cs.csproj.AssemblyReference.cache
+C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\obj\Debug\netcoreapp3.1\FileIOoperation.cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\obj\Debug\netcoreapp3.1\FileIOoperation.cs.AssemblyInfoInputs.cache
+C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\obj\Debug\netcoreapp3.1\FileIOoperation.cs.AssemblyInfo.cs
+C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\obj\Debug\netcoreapp3.1\FileIOoperation.cs.csproj.CoreCompileInputs.cache
+C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\bin\Debug\netcoreapp3.1\FileIOoperation.cs.exe
+C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\bin\Debug\netcoreapp3.1\FileIOoperation.cs.deps.json
+C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\bin\Debug\netcoreapp3.1\FileIOoperation.cs.runtimeconfig.json
+C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\bin\Debug\netcoreapp3.1\FileIOoperation.cs.runtimeconfig.dev.json
+C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\bin\Debug\netcoreapp3.1\FileIOoperation.cs.dll
+C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\bin\Debug\netcoreapp3.1\FileIOoperation.cs.pdb
+C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\obj\Debug\netcoreapp3.1\FileIOoperation.cs.dll
+C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\obj\Debug\netcoreapp3.1\FileIOoperation.cs.pdb
+C:\Users\pihu\source\repos\FileIOoperation.cs\FileIOoperation.cs\obj\Debug\netcoreapp3.1\FileIOoperation.cs.genruntimeconfig.cache
